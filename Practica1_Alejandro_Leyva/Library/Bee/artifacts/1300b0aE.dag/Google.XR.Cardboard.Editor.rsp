@@ -346,8 +346,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Editor/BuildPostProcessor.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Editor/CardboardMetadata.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Editor/BuildPostProcessor.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Editor/CardboardMetadata.cs"
 -langversion:9.0
 
 /deterministic
@@ -362,6 +362,6 @@
 /nowarn:1702
 /utf8output
 /preferreduilang:en-US
-
+-warn:0
 
 /additionalfile:"Library/Bee/artifacts/1300b0aE.dag/Google.XR.Cardboard.Editor.AdditionalFile.txt"

@@ -336,11 +336,12 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/Api.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/ApiConstants.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/Widget.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/XRLoader.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/XRSettings.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/Api.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/ApiConstants.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/CardboardReticlePointer.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/Widget.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/XRLoader.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/XRSettings.cs"
 -langversion:9.0
 
 /deterministic
@@ -355,6 +356,6 @@
 /nowarn:1702
 /utf8output
 /preferreduilang:en-US
-
+-warn:0
 
 /additionalfile:"Library/Bee/artifacts/1300b0aE.dag/Google.XR.Cardboard.AdditionalFile.txt"
