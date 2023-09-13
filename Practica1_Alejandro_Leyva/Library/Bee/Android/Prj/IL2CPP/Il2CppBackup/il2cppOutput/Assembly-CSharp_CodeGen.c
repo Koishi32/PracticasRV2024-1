@@ -12,16 +12,16 @@
 
 
 
-// 0x00000001 System.Void CameraPointer::Update()
-extern void CameraPointer_Update_mF19D284A593E4627CD4F22A58C11FB87B6627FF4 (void);
-// 0x00000002 System.Void CameraPointer::.ctor()
-extern void CameraPointer__ctor_m5C4B443EB7C8A518306BF27BD947D938FDF5162D (void);
-// 0x00000003 System.Void CardboardStartup::Start()
+// 0x00000001 System.Void CardboardStartup::Start()
 extern void CardboardStartup_Start_m35E3138C09D62411C4C8503DD4D47DA2AF9BF6E2 (void);
-// 0x00000004 System.Void CardboardStartup::Update()
+// 0x00000002 System.Void CardboardStartup::Update()
 extern void CardboardStartup_Update_m4D4D770B4F4BA807AB64DB40B6730226BB821883 (void);
-// 0x00000005 System.Void CardboardStartup::.ctor()
+// 0x00000003 System.Void CardboardStartup::.ctor()
 extern void CardboardStartup__ctor_m4C459294D28BDCFC64FECC657FB860844F52D9F7 (void);
+// 0x00000004 System.Void GraphicsAPITextController::Start()
+extern void GraphicsAPITextController_Start_mCD9DF9F31DF9E93A29126C6CD0B979F7F01F72C4 (void);
+// 0x00000005 System.Void GraphicsAPITextController::.ctor()
+extern void GraphicsAPITextController__ctor_m29A2AD5AE282F114E816F84A166F5BA39BEB1685 (void);
 // 0x00000006 System.Void ObjectController::Start()
 extern void ObjectController_Start_m50CBBCE72AB6C2A5C8BC1977D520CF3856A91E89 (void);
 // 0x00000007 System.Void ObjectController::TeleportRandomly()
@@ -66,13 +66,27 @@ extern void U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600 (void);
 // 0x0000001B System.Object VrModeController/<StartXR>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F (void);
-static Il2CppMethodPointer s_methodPointers[27] = 
+// 0x0000001C System.Void test::Start()
+extern void test_Start_mEC610EE12F006B73DD8DBE742E8660D39BFF518F (void);
+// 0x0000001D System.Void test::Update()
+extern void test_Update_m2812B4DBD8C297CA22608BEA1DB1C608261F6822 (void);
+// 0x0000001E System.Void test::rotate_carrusel()
+extern void test_rotate_carrusel_m47BD383F18B8E28D9DB3D1BF831FD04C08479B47 (void);
+// 0x0000001F System.Void test::.ctor()
+extern void test__ctor_m679060463014204CFBD2EA912506DF1462D5CD32 (void);
+// 0x00000020 System.Void UpDown::Update()
+extern void UpDown_Update_mA8F85736B125C3F5438DAB3392B14CB5628CF692 (void);
+// 0x00000021 System.Void UpDown::Start()
+extern void UpDown_Start_m4143F032C6EE4E9384AF65451AD967EEBFA43A0F (void);
+// 0x00000022 System.Void UpDown::.ctor()
+extern void UpDown__ctor_mFB93AFE3004B59A1650E3AD82DA011C84F07B615 (void);
+static Il2CppMethodPointer s_methodPointers[34] = 
 {
-	CameraPointer_Update_mF19D284A593E4627CD4F22A58C11FB87B6627FF4,
-	CameraPointer__ctor_m5C4B443EB7C8A518306BF27BD947D938FDF5162D,
 	CardboardStartup_Start_m35E3138C09D62411C4C8503DD4D47DA2AF9BF6E2,
 	CardboardStartup_Update_m4D4D770B4F4BA807AB64DB40B6730226BB821883,
 	CardboardStartup__ctor_m4C459294D28BDCFC64FECC657FB860844F52D9F7,
+	GraphicsAPITextController_Start_mCD9DF9F31DF9E93A29126C6CD0B979F7F01F72C4,
+	GraphicsAPITextController__ctor_m29A2AD5AE282F114E816F84A166F5BA39BEB1685,
 	ObjectController_Start_m50CBBCE72AB6C2A5C8BC1977D520CF3856A91E89,
 	ObjectController_TeleportRandomly_m45F23374832369044CBD4F60F4F976D33C97C181,
 	ObjectController_OnPointerEnter_m5D028066A6B28C2770924AE0C5A2A926E807FC42,
@@ -95,42 +109,56 @@ static Il2CppMethodPointer s_methodPointers[27] =
 	U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD0B4CE8CBE980FD132B19F40FF2172502B1D0566,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F,
+	test_Start_mEC610EE12F006B73DD8DBE742E8660D39BFF518F,
+	test_Update_m2812B4DBD8C297CA22608BEA1DB1C608261F6822,
+	test_rotate_carrusel_m47BD383F18B8E28D9DB3D1BF831FD04C08479B47,
+	test__ctor_m679060463014204CFBD2EA912506DF1462D5CD32,
+	UpDown_Update_mA8F85736B125C3F5438DAB3392B14CB5628CF692,
+	UpDown_Start_m4143F032C6EE4E9384AF65451AD967EEBFA43A0F,
+	UpDown__ctor_mFB93AFE3004B59A1650E3AD82DA011C84F07B615,
 };
-static const int32_t s_InvokerIndices[27] = 
+static const int32_t s_InvokerIndices[34] = 
 {
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	1061,
-	891,
-	1061,
-	1011,
-	1011,
-	1061,
-	1061,
-	1061,
-	1061,
-	1035,
-	1061,
-	1061,
-	908,
-	1061,
-	1011,
-	1035,
-	1061,
-	1035,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	902,
+	1072,
+	1022,
+	1022,
+	1072,
+	1072,
+	1072,
+	1072,
+	1046,
+	1072,
+	1072,
+	919,
+	1072,
+	1022,
+	1046,
+	1072,
+	1046,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
+	1072,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	27,
+	34,
 	s_methodPointers,
 	0,
 	NULL,

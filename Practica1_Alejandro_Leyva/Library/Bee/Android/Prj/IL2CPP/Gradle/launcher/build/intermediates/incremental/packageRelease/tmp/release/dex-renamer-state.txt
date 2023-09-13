@@ -1,4 +1,4 @@
-#Wed Aug 30 15:10:07 CDT 2023
-base.0=D\:\\TechStuff\\UnityProjects\\NewOne\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Tue Sep 12 22:03:38 CDT 2023
+base.0=D\:\\TechStuff\\UnityStuff\\RepositorioClasesRV\\PracticasRV2024-1\\Practica1_Alejandro_Leyva\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

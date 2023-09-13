@@ -106,7 +106,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/TechStuff/UnityProjects/NewOne/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/TechStuff/UnityStuff/RepositorioClasesRV/PracticasRV2024-1/Practica1_Alejandro_Leyva/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -303,10 +303,12 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scripts/CameraPointer.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scripts/CardboardStartup.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scripts/ObjectController.cs"
-"Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scripts/VrModeController.cs"
+"Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scripts/CardboardStartup.cs"
+"Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs"
+"Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scripts/ObjectController.cs"
+"Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scripts/VrModeController.cs"
+"Assets/scripts/test.cs"
+"Assets/scripts/UpDown.cs"
 -langversion:9.0
 
 /deterministic

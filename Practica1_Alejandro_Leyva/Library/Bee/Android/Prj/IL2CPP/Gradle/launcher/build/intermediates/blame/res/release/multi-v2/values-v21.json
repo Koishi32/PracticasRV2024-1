@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TechStuff\\UnityProjects\\NewOne\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\TechStuff\\UnityStuff\\RepositorioClasesRV\\PracticasRV2024-1\\Practica1_Alejandro_Leyva\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-2\\files-2.1\\9e788877d1498ebda63702ab1c9845a2\\appcompat-1.4.2\\res\\values-v21\\values-v21.xml",
@@ -42,25 +42,6 @@
                     }
                 },
                 {
-                    "source": "D:\\TechStuff\\UnityProjects\\NewOne\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "0",
-                        "startOffsets": "53",
-                        "endLines": "3",
-                        "endColumns": "8",
-                        "endOffsets": "153"
-                    },
-                    "to": {
-                        "startLines": "281",
-                        "startColumns": "4",
-                        "startOffsets": "21449",
-                        "endLines": "282",
-                        "endColumns": "8",
-                        "endOffsets": "21548"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-2\\files-2.1\\a0ebba694f8e6a95bc427eaef4894530\\material-1.6.1\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,24,27,30,33,36,39,42,45,48,49,52,57,68,74,84,94,104,114,124,134,144,154,164,174,184,194,204,214,224,230,236,242,248,252,256,257,258,259,263,266,269,272,275,278,281,285,289",
@@ -77,6 +58,25 @@
                         "endLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,80,81,82,83,85,88,91,94,189,192,195,198,204,207,272,275,280,293,299,351,361,371,381,391,401,411,421,431,441,451,461,471,481,491,497,503,509,515,519,523,524,525,526,530,533,536,539,542,553,556,560,564,567",
                         "endColumns": "97,95,95,97,67,78,87,87,87,87,86,86,86,86,92,106,104,118,124,10,10,10,10,10,10,10,10,10,115,10,12,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,137,143,155,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "266,362,458,556,624,703,791,879,967,1055,1142,1229,1316,1403,7058,7165,7270,7389,7617,7830,8089,8360,14920,15152,15388,15638,16050,16281,20953,21123,21444,22577,23034,26432,26989,27547,28110,28664,29217,29771,30326,30877,31432,31990,32547,33095,33651,34208,34550,34894,35244,35594,35923,36264,36402,36546,36702,37095,37313,37535,37761,37977,38671,38861,39102,39361,39538"
+                    }
+                },
+                {
+                    "source": "D:\\TechStuff\\UnityStuff\\RepositorioClasesRV\\PracticasRV2024-1\\Practica1_Alejandro_Leyva\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "281",
+                        "startColumns": "4",
+                        "startOffsets": "21449",
+                        "endLines": "282",
+                        "endColumns": "8",
+                        "endOffsets": "21548"
                     }
                 }
             ]

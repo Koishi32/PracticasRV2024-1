@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TechStuff\\UnityProjects\\NewOne\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "D:\\TechStuff\\UnityStuff\\RepositorioClasesRV\\PracticasRV2024-1\\Practica1_Alejandro_Leyva\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aleja\\.gradle\\caches\\transforms-2\\files-2.1\\6347463628bd50dd35efaef4ec140c53\\jetified-play-services-basement-17.4.0\\res\\values-es\\values.xml",

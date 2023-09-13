@@ -106,7 +106,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/TechStuff/UnityProjects/NewOne/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/TechStuff/UnityStuff/RepositorioClasesRV/PracticasRV2024-1/Practica1_Alejandro_Leyva/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -295,11 +295,12 @@
 -r:"D:/Unity/Editors/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.XRModule.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/Api.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/ApiConstants.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/Widget.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/XRLoader.cs"
-"D:/JustfuckingKillme/Practica1/cardboard-xr-plugin-master/Runtime/XRSettings.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/Api.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/ApiConstants.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/CardboardReticlePointer.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/Widget.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/XRLoader.cs"
+"Library/PackageCache/com.google.xr.cardboard@0ac5fd3fff/Runtime/XRSettings.cs"
 -langversion:9.0
 
 /deterministic
@@ -314,6 +315,6 @@
 /nowarn:1702
 /utf8output
 /preferreduilang:en-US
-
+-warn:0
 
 /additionalfile:"Library/Bee/artifacts/1300b0aP.dag/Google.XR.Cardboard.AdditionalFile.txt"
