@@ -107,6 +107,7 @@ class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
+class SphereCollider; template <> void RegisterUnityClass<SphereCollider>(const char*);
 namespace TextRendering { class Font; } template <> void RegisterUnityClass<TextRendering::Font>(const char*);
 namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
 
@@ -114,7 +115,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 63 non stripped classes
+	//Total: 64 non stripped classes
 	//0. AudioBehaviour
 	RegisterUnityClass<AudioBehaviour>("Audio");
 	//1. AudioClip
@@ -237,9 +238,11 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<PhysicsManager>("Physics");
 	//60. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//61. Font
+	//61. SphereCollider
+	RegisterUnityClass<SphereCollider>("Physics");
+	//62. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//62. TextMesh
+	//63. TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
 
 }

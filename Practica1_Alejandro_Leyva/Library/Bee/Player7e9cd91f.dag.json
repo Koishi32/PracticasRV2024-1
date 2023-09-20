@@ -17088,7 +17088,7 @@
     {
       "Annotation": "WriteText D:/TechStuff/UnityStuff/RepositorioClasesRV/PracticasRV2024-1/Practica1_Alejandro_Leyva/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">Practica2_Alejandro_Leyva</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
+      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">Practica3_Alejandro_Leyva</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
       "Inputs": [],
       "Outputs": [
         "D:/TechStuff/UnityStuff/RepositorioClasesRV/PracticasRV2024-1/Practica1_Alejandro_Leyva/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"

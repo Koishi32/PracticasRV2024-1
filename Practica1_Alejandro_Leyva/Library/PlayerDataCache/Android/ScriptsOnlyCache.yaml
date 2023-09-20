@@ -2,9 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CardboardStartup
-    - GraphicsAPITextController
-    - UpDown
-    - test
+    - ObjectController
+    - chage_env
+    - changeSky
     Google.XR.Cardboard.dll:
     - CardboardReticlePointer
     - Google.XR.Cardboard.XRLoader
@@ -24,7 +24,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/HelloCarrusel.unity:
+    Assets/Scenes/Practica3_Imagen180.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -47,8 +47,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 102
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -60,22 +58,22 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20254}
     - Class: 114
-      Script: {instanceID: 20400}
+      Script: {instanceID: 20464}
     - Class: 114
-      Script: {instanceID: 21702}
+      Script: {instanceID: 23070}
     - Class: 114
-      Script: {instanceID: 23632}
-    - Class: 114
-      Script: {instanceID: 28334}
+      Script: {instanceID: 23730}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -856,6 +854,12 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: 2579522be022e1bc0e90bd49c0265800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpDown
+  - hash:
+      serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -946,11 +950,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 2579522be022e1bc0e90bd49c0265800
+      Hash: 6ec0fe9c31b3d82af7de94e2c815f417
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UpDown
+    className: chage_env
+  - hash:
+      serializedVersion: 2
+      Hash: de7e69cffb153ba7a28224ff9b43209d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changeSky
   platform: 13
   scenePathNames:
-  - Assets/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/HelloCarrusel.unity
-  playerPath: C:/Users/aleja/Downloads/Practica2_Alejandro_Leyva.apk
+  - Assets/Scenes/Practica3_Imagen180.unity
+  playerPath: D:/Practica3_Alejandro_Leyva.apk
