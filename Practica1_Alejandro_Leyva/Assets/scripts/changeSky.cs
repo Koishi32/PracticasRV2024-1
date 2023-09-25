@@ -5,7 +5,6 @@ using UnityEngine;
 public class changeSky : MonoBehaviour
 {
     public Material MySky;
-    public Camera MyCamera;
     // Start is called before the first frame update
     private void OnEnable()
     {
