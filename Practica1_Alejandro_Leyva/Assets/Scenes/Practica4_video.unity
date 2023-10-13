@@ -292,9 +292,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2439080648234746331, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 2439080648234746331, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2439080648234746331, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3529412
+      objectReference: {fileID: 0}
     - target: {fileID: 4452737166692164084, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
       propertyPath: previousScene_Index
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609553520144293556, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609553520144293556, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609553520144293556, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609553520144293556, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5615930758014345101, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -395,6 +423,18 @@ PrefabInstance:
     - target: {fileID: 5615930758985500830, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
       propertyPath: m_Name
       value: CanvasSceneChange
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741214234793601287, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.94117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741214234793601287, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 7741214234793601287, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3529412
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c73b9f9fd8762774b9013bd92082a56e, type: 3}
@@ -741,7 +781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 723926960, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
       propertyPath: ReticleInteractionLayerMask.m_Bits
-      value: 264
+      value: 296
       objectReference: {fileID: 0}
     - target: {fileID: 723926960, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
       propertyPath: RecticleInteractionLayerMask.m_Bits
