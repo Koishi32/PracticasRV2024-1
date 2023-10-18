@@ -8,17 +8,26 @@ public class DrunkBehaviour : MonoBehaviour
     NavMeshAgent myNavMeshAgent;
     public Rigidbody bullet;
     public Transform Player;
+    Vector3 Destination;
     // Start is called before the first frame update
     void Start()
     {
         Animator = this.gameObject.GetComponent<Animator>();
         myNavMeshAgent = GetComponent<NavMeshAgent>();
         Animator.SetBool("IsRuning", true);
+        //myNavMeshAgent.destination=(Player.transform.position);
+        Destination = myNavMeshAgent.destination;
     }
 
     private void Update()
     {
-        myNavMeshAgent.SetDestination(Player.transform.position);
+        //myNavMeshAgent.SetDestination(Player.transform.position);
+        if (Vector3.Distance(Destination, Player.position) > 1.0f)
+        {
+            Destination = Player.position;
+            myNavMeshAgent.destination = Destination;
+        }
+
     }
     // Update is called once per frame
 
@@ -28,14 +37,19 @@ public class DrunkBehaviour : MonoBehaviour
         if (collision.collider.tag == "Projectile") {
             Debug.Log("Hit");
             Animator.SetTrigger("Pain");
-            Animator.SetBool("IsRuning", false);
-        } else if (collision.collider.tag == "Player") {
-            Debug.Log("PlayerHit");
-            Animator.SetTrigger("Punch");
-            Animator.SetBool("IsRuning", false);
+            //Animator.SetBool("IsRuning", false);
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("PlayerHit");
+            Animator.SetTrigger("Punch");
+            //Animator.SetBool("IsRuning", false);
+        }
+    }
     public void OnPointerEnter()
     {
         
