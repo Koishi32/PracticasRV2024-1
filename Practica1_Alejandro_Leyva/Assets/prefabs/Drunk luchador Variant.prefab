@@ -377,7 +377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a8a42907b2025ab4f98ff3cb85524a7c, type: 3}
       propertyPath: m_Name
-      value: Drunk luchador
+      value: Drunk luchador Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a8a42907b2025ab4f98ff3cb85524a7c, type: 3}
       propertyPath: m_Layer
@@ -698,7 +698,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4374567588026704010}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.2128291, y: 1.7884955, z: 1.0356941}
@@ -736,8 +736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f74cf02891727f499ff6fc572b9a425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4813321383532957693, guid: a26bcbfc3f6d0be4d80133722f207d07, type: 3}
   Player: {fileID: 0}
+  vida: 5
 --- !u!195 &316305872
 NavMeshAgent:
   m_ObjectHideFlags: 0
